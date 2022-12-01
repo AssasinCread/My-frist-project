@@ -1,0 +1,43 @@
+.nav {
+    display: inline;
+    
+}
+
+.border{
+    border-bottom:10px solid green;
+}
+
+.head{
+    background-color:cyan;
+}
+
+.body{
+    background:lightgreen;
+}
+
+.button{
+    background-color:yellow;
+}
+
+.continer{
+    width:859px;
+    margin:0 auto;
+}
+
+.your{
+    margin-left:18px;
+  
+}
+
+.comment{
+    /* margin: top 15px;; */
+}
+
+.btn__block {
+    display: block;
+}
+
+.btns__ {
+    background: red;
+    padding-left:85px;
+}

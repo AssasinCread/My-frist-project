@@ -1,0 +1,42 @@
+/* .first{
+ width:600px;
+ height:600px;
+ background-color: blue;
+} */
+
+.block{
+    background-color:red;
+    width:100px;
+    height:100px;
+    animation-duration:3s;
+    rotate:block_1;
+    animation-name:block_l;
+}
+
+@keyframes block_l{
+    0%{
+        transform:translateY(0);
+        
+    }
+    25%{
+        transform:translateY(680px);
+        rotate:180deg;
+    }
+
+    50%{
+        /* transform:translate(400px 680px); */
+        rotate:180deg;
+        transform: translate(1000px,680px);
+        /* transform: translateX(500px) */
+    }
+
+    75%{
+        /* transform:translateY(500px); */
+        rotate:180deg;
+        transform: translateY(680px);
+    }
+    100%{
+        /* transform:translateX(0); */
+        /* rotate:180deg;/ */
+    }
+}

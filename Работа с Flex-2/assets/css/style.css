@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 20px;
+}
+
+
+
+.container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    background: url(../img/cafe-bg-05.jpg) no-repeat;
+    height: 1200px;
+}
+
+.section {
+    background: rgba(255, 255, 255, 0.8);
+    width: 360px;
+    padding: 40px 20px;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.title {
+    color: #066;
+    font-size: 40px;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.tel__email {
+    margin-top: 20px;
+}
+
+.mail {
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #066;
+    color:white;
+    padding: 10px 30px;
+    border: 1px solid #066;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+
+.footer__text {
+    color: white;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%);
+}
